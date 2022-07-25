@@ -1,3 +1,11 @@
 function changeBackgroundColor(color) {
-   document.body.style.background = "green";
+   if (document.body.style.backgroundColor == "green")
+   {
+   	document.body.style.backgroundColor = "red"
+   }
+   else
+   {
+
+   	document.body.style.backgroundColor = "green"
+   }
 }
